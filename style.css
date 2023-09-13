@@ -1,0 +1,32 @@
+.bigtitle {
+    color: blue;
+
+}
+
+.navbar ul {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.555);
+    color: white;
+    height: 3.5rem;
+    font-family: "Rubik Iso";
+}
+
+
+
+.navbar li {
+    display: block;
+    text-decoration: none;
+    color: rgb(24, 14, 84);
+    padding: 1rem;
+    transition: 0.3s;
+    font-family: "Rubik Iso";
+    font-size: 3rem;
+
+}
+
+.navbar li a:hover {
+    color: #ff00b3;
+}
